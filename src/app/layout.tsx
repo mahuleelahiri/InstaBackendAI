@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "InstaBackend AI — Live Backend in 15 Seconds",
+  title: "InstaBackend AI — Live Backend in 1 Minute",
   description:
-    "Type one sentence describing your business. Get a live REST API, a real database seeded with smart data, and a beautiful auto-generated admin panel — all in under 15 seconds.",
+    "Type one sentence describing your business. Get a live REST API, a real database seeded with smart data, and a beautiful auto-generated admin panel — all in under 1 minute.",
   keywords: ["backend", "AI", "REST API", "database", "hackathon", "prototype"],
   openGraph: {
     title: "InstaBackend AI",
-    description: "From Idea to Live Business in 15 Seconds",
+    description: "From Idea to Live Business in 1 Minute",
     type: "website",
   },
 };

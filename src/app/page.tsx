@@ -126,7 +126,7 @@ export default function LandingPage() {
           <span className="animate-pulse-glow" style={{ fontSize: "0.6rem" }}>
             ●
           </span>
-          POWERED BY GEMINI 1.5 FLASH + SUPABASE
+          POWERED BY GEMINI 2.5 FLASH + SUPABASE
         </div>
 
         <h1
@@ -155,10 +155,11 @@ export default function LandingPage() {
           <span style={{ color: "var(--accent-green)", fontWeight: 600 }}>
             live REST API
           </span>
-          , a seeded database with 20+ realistic rows, and a beautiful admin
-          panel — all in{" "}
+          , a seeded database with 20+ realistic rows and a sleek admin panel
+          <br />
+          all in{" "}
           <span style={{ color: "var(--accent-cyan)", fontWeight: 600 }}>
-            15 seconds
+            1 minute
           </span>
           .
         </p>
@@ -317,13 +318,13 @@ export default function LandingPage() {
                       background: active
                         ? "rgba(0, 212, 255, 0.06)"
                         : done
-                        ? "rgba(16, 217, 168, 0.04)"
-                        : "transparent",
+                          ? "rgba(16, 217, 168, 0.04)"
+                          : "transparent",
                       border: active
                         ? "1px solid rgba(0, 212, 255, 0.2)"
                         : done
-                        ? "1px solid rgba(16, 217, 168, 0.15)"
-                        : "1px solid transparent",
+                          ? "1px solid rgba(16, 217, 168, 0.15)"
+                          : "1px solid transparent",
                       transition: "all 0.3s ease",
                       opacity: idx > currentStep ? 0.3 : 1,
                     }}
@@ -338,8 +339,8 @@ export default function LandingPage() {
                         color: active
                           ? "var(--accent-cyan)"
                           : done
-                          ? "var(--accent-green)"
-                          : "var(--text-muted)",
+                            ? "var(--accent-green)"
+                            : "var(--text-muted)",
                       }}
                     >
                       {step.label}
@@ -383,7 +384,7 @@ export default function LandingPage() {
           }}
         >
           {[
-            { value: "15s", label: "Setup time" },
+            { value: "~1m", label: "Setup time" },
             { value: "20+", label: "Rows per table" },
             { value: "4", label: "REST methods" },
             { value: "∞", label: "Workspaces" },
@@ -420,7 +421,7 @@ export default function LandingPage() {
           textAlign: "center",
         }}
       >
-        Built with ❤️ using Next.js · Gemini 1.5 Flash · Supabase
+        Built with ❤️ using Next.js · Gemini 2.5 Flash · Supabase
       </footer>
     </main>
   );
